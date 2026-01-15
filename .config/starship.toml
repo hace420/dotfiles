@@ -8,7 +8,6 @@ $directory\
 [](fg:#313244 bg:#45475a)\
 $git_branch\
 $git_status\
-[](fg:#45475a bg:#94e2d5)\
 $c\
 $elixir\
 $elm\
@@ -19,9 +18,9 @@ $julia\
 $nodejs\
 $nim\
 $rust\
-[](fg:#94e2d5 bg:#94e2d5)\
+[](fg:#45475a bg:#45475a)\
 $docker_context\
-[](fg:#94e2d5 bg:#BD93F9)\
+[](fg:#45475a bg:#BD93F9)\
 $time\
 [ ](fg:#BD93F9)
 """
@@ -62,57 +61,57 @@ format = '[(\($virtualenv\) )]($style)'
 [c]
 symbol = " "
 style = "bg:#f4b8e4 fg:#1e1e2e"
-format = '[ $symbol ($version) ]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [elixir]
 symbol = " "
 style = "bg:#f4b8e4 fg:#1e1e2e"
-format = '[ $symbol ($version) ]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [elm]
 symbol = " "
 style = "bg:#f4b8e4 fg:#1e1e2e"
-format = '[ $symbol ($version) ]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [golang]
 symbol = " "
 style = "bg:#f4b8e4 fg:#1e1e2e"
-format = '[ $symbol ($version) ]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [haskell]
 symbol = " "
 style = "bg:#f4b8e4 fg:#1e1e2e"
-format = '[ $symbol ($version) ]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [java]
 symbol = " "
-style = "bg:#f4b8e4 fg:#1e1e2e"
-format = '[ $symbol ($version) ]($style)'
+style = "bg:#fab387 fg:#1e1e2e"
+format = '[ $symbol ($version)]($style)'
 
 [julia]
 symbol = " "
 style = "bg:#f4b8e4 fg:#1e1e2e"
-format = '[ $symbol ($version) ]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [nodejs]
 symbol = ""
 style = "bg:#f4b8e4 fg:#1e1e2e"
-format = '[ $symbol ($version) ]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [nim]
 symbol = " "
 style = "bg:#f4b8e4 fg:#1e1e2e"
-format = '[ $symbol ($version) ]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [rust]
 symbol = ""
 style = "bg:#f4b8e4 fg:#1e1e2e"
-format = '[ $symbol ($version) ]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [docker_context]
 symbol = " "
 style = "bg:#94e2d5 fg:#1e1e2e"
-format = '[ $symbol $context ]($style)$path'
+format = '[ $symbol $context ]($style)$path'
 
 [time]
 disabled = false
