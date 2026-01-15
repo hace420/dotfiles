@@ -28,7 +28,7 @@ return {
     keymap = {
       preset = 'default',
       ["<CR>"] = { "accept", "fallback" },
-      ["<M-n>"] = { "show_documentation" },
+      ["<M-n>"] = { "show" },
     },
 
     appearance = {
