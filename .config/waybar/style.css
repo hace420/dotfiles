@@ -1,0 +1,169 @@
+@import "../omarchy/current/theme/waybar.css";
+
+* {
+  background-color: transparent;
+  
+  
+
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: 'MesloLGL Nerd Font';
+  font-size: 14px;
+}
+
+.modules-left {
+  margin-left: 8px;
+}
+
+#workspaces {
+  /*border: 1.5px solid #8BE9FD;*/
+  opacity:0.8;
+  background-color: #282A36;
+  border-radius:20px;
+  min-width:70px;
+  padding: 0 14px;
+  color: #8BE9FD;
+
+
+}
+
+#workspaces button {
+  
+  padding: 0 12px;
+  margin: 0 1.5px;
+  min-width: 9px;
+  color: #f4b8e4;
+
+
+}
+
+
+#workspaces button.empty {
+  opacity: 0.5;
+}
+
+#workspaces button.active {
+  border-radius:20px;
+  background-color:#44475A;
+  padding:0 18px;
+}
+
+#custom-expand-icon,
+#tray,
+#clock,
+#pulseaudio,
+#cpu,
+#battery,
+#custom-omarchy,
+#network,
+#bluetooth,
+#custom-screenrecording-indicator,
+#custom-update {
+  min-width: 25px;
+  opacity: 0.6;
+  margin: 0 8px;
+ /* border: 1.5px solid #8BE9FD;*/
+  border-radius: 20px;
+  padding: 0 14px;
+  background-color: #282A36;
+  
+
+}
+
+
+
+#tray {
+  border: 1.5px solid teal;
+  border-radius: 10px;
+  min-width: 25px;
+  padding: 0 14px;
+
+}
+
+tooltip {
+  padding: 2px;
+}
+
+#custom-update {
+  font-size: 10px;
+  color: #f4b8e4;
+}
+
+#clock {
+  margin-left: 5px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#cpu {
+  color: #f4b8e4;
+}
+
+
+tooltip {
+  padding: 2px;
+}
+
+#custom-update {
+  font-size: 10px;
+}
+
+#clock {
+  margin-left: 5px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+tooltip {
+  padding: 2px;
+}
+
+#custom-update {
+  font-size: 10px;
+}
+
+#clock {
+  margin-left: 5px;
+}
+
+#network,
+#battery,
+#custom-expand-icon,
+#pulseaudio {
+  color: #f4b8e4;
+
+}
+
+
+#bluetooth,
+#clock,
+#custom-omarchy {
+  color: #BD93F9;
+}
+.hidden {
+  opacity: 0;
+}
+
+#custom-screenrecording-indicator {
+  min-width: 12px;
+  font-size: 10px;
+  padding-bottom: 1px;
+}
+
+#custom-screenrecording-indicator.active {
+  color: #a55555;
+}
+
+#custom-voxtype {
+  min-width: 12px;
+  margin: 0 0 0 7.5px;
+}
+
+#custom-voxtype.recording {
+  color: #a55555;
+}
